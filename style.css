@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: rgb(77, 67, 67);
     
 }
 
@@ -179,6 +180,92 @@ hr{
     width: 230px;
     margin-bottom: 5px;
     
+  }
+
+  #paragraph{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .images{
+    filter: grayscale(70%);
+    -webkit-filter: grayscale(70%);
+  }
+  .cards{
+    width: auto;
+  }
+  #container3{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .h3{
+    font-size: medium;
+    padding-bottom: 7px;
+  }
+  p{
+    padding-top: 7px;
+  }
+  .button1{
+    width: 95%;
+    padding: 7px;
+    border: none;
+    margin-top: 7px;
+    margin-bottom: 40px;
+  }
+  #button2{
+  font-size: large;
+  padding: 10px; 
+  background-color: black;
+  color: white; 
+  border: none;
+  }
+  .inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 1em 0 1em 0;
+    max-width:auto;
+    position: relative;
+  }
+  
+  .inputGroup input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .inputGroup label {
+    font-size: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0.8em;
+    margin-left: 0.5em;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: rgb(100, 100, 100);
+  }
+  
+  .inputGroup :is(input:focus, input:valid)~label {
+    transform: translateY(-50%) scale(.9);
+    margin: 0em;
+    margin-left: 1.3em;
+    padding: 0.4em;
+    background-color: white;
+  }
+  
+  .inputGroup :is(input:focus, input:valid) {
+    border-color: rgb(150, 150, 200);
+  }
+
+  
+  
+  #container4 ,.contact{
+    width: 70%;
+    margin: 0 auto;
   }
 
   
