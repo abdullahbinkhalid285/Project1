@@ -268,6 +268,27 @@ hr{
     margin: 0 auto;
   }
 
+
+
+  #container5{
+    width: 70%;
+    margin: 0 auto;
+    
+  }
+  #map
+  {
+    width: 100%;
+    margin-top: 20px;
+  }
+  footer{
+    
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+  }
+
   
 
 
